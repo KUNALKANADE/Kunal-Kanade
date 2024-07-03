@@ -5,8 +5,8 @@
     border: 2px solid transparent;
     border-radius: 0.25rem;
     font-weight: 600;
-    color: #ffffff;
-    background-color: #000000;
+    color: floralwhite;
+    background-color: black;
     transition: all 0.3s ease-in-out;
 }
 
@@ -18,7 +18,7 @@
     right: -4px;
     bottom: -4px;
     border-radius: 0.25rem;
-    background: linear-gradient(45deg, #ff0077, #6700ff, #ff0077, #6700ff);
+    background: linear-gradient(45deg, #ffffff, #6700ff, #ff0077, #ffffff);
     background-size: 300% 300%;
     animation: glowing 2s linear infinite;
     z-index: -1;
@@ -26,12 +26,12 @@
 
 @keyframes glowing {
     0% {
-    background-position: 0% 50%;
+        background-position: 0% 50%;
     }
     50% {
-    background-position: 100% 50%;
+        background-position: 100% 50%;
     }
     100% {
-    background-position: 0% 50%;
+        background-position: 0% 50%;
     }
 }

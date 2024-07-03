@@ -1,6 +1,7 @@
 import logo from "../assets/kevinRushLogo.png";
 import { FaLinkedin, FaGithub, FaTwitterSquare, FaInstagram } from "react-icons/fa";
 
+
 const Navbar = () => {
 return (
     <nav className="mb-20 flex items-center justify-between py-6">
@@ -11,10 +12,10 @@ return (
         <a className="text-blue-800" href="https://www.linkedin.com/in/kunal-kanade-34213a1b2/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
         </a>
-        <a href="https://github.com/KUNALKANADE" target="_blank" rel="noopener noreferrer">
+        <a className="text-black-300" href="https://github.com/KUNALKANADE" target="_blank" rel="noopener noreferrer">
         <FaGithub />
         </a>
-        <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/KunalKanade10" target="_blank" rel="noopener noreferrer">
         <FaTwitterSquare />
         </a>
         <a className="text-pink-900" href="https://www.instagram.com/kunal_kanade/" target="_blank" rel="noopener noreferrer">
