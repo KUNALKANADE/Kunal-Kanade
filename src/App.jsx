@@ -5,6 +5,8 @@ import Technologies from "./component/Technologies";
 import Projects from "./component/Projects";
 import Contact from "./component/Contact";
 import Enquiry from "./component/Enquiry";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 
 
 
@@ -26,6 +28,8 @@ const App = () => {
         <Projects />
         <Contact />
       <Enquiry />
+      <SpeedInsights />
+
 
       
       </div>
